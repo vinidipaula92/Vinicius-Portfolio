@@ -1,6 +1,5 @@
 // import Projects from "./components/Projects";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'rbx/index.css';
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import Contato from "./pages/Contato";
