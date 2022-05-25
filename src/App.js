@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// import Projects from "./components/Projects";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'rbx/index.css';
+import React, { Component } from "react";
+import { Route, Switch } from "react-router-dom";
+import Contato from "./pages/Contato";
+import Home from "./pages/Home";
+import Projetos from './pages/Projetos';
+import Sobre from "./pages/Sobre.js";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="container-fluid">
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/sobre' component={Sobre} />
+        <Route path='/projetos' component={Projetos} />
+        <Route path='/contato' component={Contato} />
+      </Switch>
+      </div>
+      );
+  }
 }
 
 export default App;

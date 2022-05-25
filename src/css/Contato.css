@@ -1,0 +1,65 @@
+.redes-contato {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.link-github {
+  text-decoration: none;
+  color: #000;
+}
+
+.link-github:hover {
+  color: #000;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.link-whatsapp {
+  text-decoration: none;
+  color: rgb(11, 165, 19);
+}
+
+.link-whatsapp:hover {
+  color: rgb(11, 165, 19);
+  opacity: 0.5;
+}
+
+.link-linkedin {
+  text-decoration: none;
+  color: #0077B5;
+}
+
+.link-linkedin:hover {
+  color: #0077B5;
+  opacity: 0.5;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.btn-enviar {
+  background-color: #faae2b;
+  color: #00473e;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
