@@ -6,6 +6,7 @@ import Contato from "./pages/Contato";
 import Home from "./pages/Home";
 import Projetos from './pages/Projetos';
 import Sobre from "./pages/Sobre.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   render() {

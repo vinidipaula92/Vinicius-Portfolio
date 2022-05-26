@@ -1,28 +1,88 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import '../css/Contato.css';
 
-class Contato extends Component {
-  render() {
+export default function Contato() {
+  const [campos, setCampos] = useState({
+    nome: '',
+    email: '',
+    mensagem: ''
+  });
+
+  function handleChange(event) {
+    const { name, value } = event.target;
+    setCampos({ ...campos, [name]: value });
+  }
+
+  function handleSubmit(event) {
+    if(campos.nome === '' || campos.email === '' || campos.mensagem === '') {
+      alert('Preencha todos os campos');
+    }
+    else {
+      alert('Mensagem enviada com sucesso');
+      setCampos({
+        nome: '',
+        email: '',
+        mensagem: ''
+      })
+    }
+  }
+
+  const EMAIL_REGEX = /\w+@\w+\.\S+/g;
+  const numberSix = 6;
+  const numberEight = 8;
+
+  const nomeTest = campos.nome.length >= numberSix;
+  const emailTest = EMAIL_REGEX.test(campos.email);
+  const mensagemTest = campos.mensagem.length >= numberEight;
     return (
       <div className='container'>
         <Navbar />
         <span>Entre em Contato</span>
         <div className='container-form'>
-          <form>
+          <form onSubmit={ handleSubmit }>
             <div className='form-group'>
-              <label>Nome</label>
-              <input type="text" className="form-control" placeholder="Digite seu nome"/>
+              <label htmlFor='nome'>Nome:</label>
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Digite seu nome"
+                name='nome'
+                onChange={ handleChange }
+                value={ campos.nome }
+              />
             </div>
             <div className='form-group'>
-              <label>Email</label>
-              <input type="email" className="form-control" placeholder="Digite seu email"/>
+              <label htmlFor='email'>Email:</label>
+              <input
+                type="email"
+                className="form-control"
+                placeholder="Digite seu email"
+                name='email'
+                onChange={ handleChange }
+                value={ campos.email }
+              />
             </div>
             <div className='form-group'>
-              <label>Mensagem</label>
-              <textarea className="form-control" rows="3" placeholder="Digite sua mensagem"></textarea>
+              <label htmlFor='mensagem'>Mensagem:</label>
+              <textarea
+                className="form-control"
+                rows="3"
+                placeholder="Digite sua mensagem"
+                name='mensagem'
+                onChange={ handleChange }
+                value={ campos.mensagem }
+                >
+              </textarea>
             </div>
-            <button type="submit" className="btn btn-enviar">Enviar</button>
+            <button
+              type="button"
+              className="btn btn-enviar"
+              onClick={ handleSubmit }
+              disabled={ !nomeTest || !emailTest || !mensagemTest }
+              >
+                Enviar
+            </button>
           </form>
         </div>
         <span>Ou se preferir, acesse minhas plataformas</span>
@@ -44,8 +104,5 @@ class Contato extends Component {
           </a>
         </div>
         </div>
-    );
-  }
-}
-
-export default Contato;
+  );
+};

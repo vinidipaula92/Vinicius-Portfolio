@@ -63,3 +63,22 @@ span {
   font-weight: bold;
   margin-top: 20px;
 }
+
+.btn-enviar:disabled {
+  background-color: #bbbaba;
+  color: #ffffff;
+}
+
+.img-familia {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

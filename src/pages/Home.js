@@ -13,9 +13,9 @@ class Home extends Component {
           <p>Olá, meu nome é Vinicius de Paula Martins dos Anjos</p>
           <p>Seja bem vindo ao meu portfolio</p>
         </div>
-        <aside className='card'>
+        <div className="img-familia">
           <img src={IMG_6912} alt="familia" width="400px"/>
-        </aside>
+        </div>
         <p className='text-family'>Gostaria de iniciar agradecendo a Deus por me abençoar,
              e pela família maravilhosa que ele me abençoou.
              Agradecer também a mulher de minha vida (Roberta),
