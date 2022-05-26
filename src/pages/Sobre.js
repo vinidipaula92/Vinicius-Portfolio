@@ -20,9 +20,9 @@ class Sobre extends Component {
             <path fill-rule="evenodd" d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"/>
           </svg>
         </div>
-        <div className='container-img'>
-          <img src={ViniciusTrybe} alt='Foto de perfil' />
-          <img src={lindao} alt='Foto de perfil' />
+        <div className='card div-card'>
+          <img src={ViniciusTrybe} alt='Foto de perfil' className='card' />
+          <img src={lindao} alt='Foto de perfil' className='card'/>
         </div>
         <p className='story-telling'>Atualmente,
           estou em formação em DEV.
