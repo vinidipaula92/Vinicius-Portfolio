@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f2f7f5;
 }
 
 .container-sobre {
@@ -14,6 +15,7 @@
 }
 
 .story-telling {
+  background-color: #f2f7f5;
   font-size: 1.2rem;
   font-weight: bold;
   display: flex;
@@ -25,6 +27,7 @@
 }
 
 .div-card {
+  background-color: #f2f7f5;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
@@ -39,6 +42,7 @@
 .image-card {
   flex: 0 1 200px;
   border-radius: 5px;
+  background-color: #f2f7f5;
 }
 
 .container-description {
