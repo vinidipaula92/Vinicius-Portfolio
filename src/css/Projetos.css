@@ -1,10 +1,32 @@
-.container-projetos-content-item {
+.container-projetos-content {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
+}
+
+.container-projetos-content-item {
+  flex: 1 1 300px;
+  display: flex;
+  flex-flow: row wrap;
   padding: 0px;
-  margin: 0px;
+  margin: 10px;
+  justify-content: space-around;
   transition: 0.3s;
-  width: 50%;
+}
+
+.container-projetos-content-item:hover {
+  transform: scale(1.1);
+}
+
+.projeto-gif {
+  flex: 1 1 200px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-weight: bold;
+  color: #3f3d56;
+  text-align: center;
 }

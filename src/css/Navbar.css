@@ -29,15 +29,6 @@
   color: #475d5b;
 }
 
-.background-nav {
-  background-color: #f2f7f5;
-  color: #475d5b;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-decoration: none;
-}
-
 .color-text {
   color: #00473e;
   margin-top: 20px;
