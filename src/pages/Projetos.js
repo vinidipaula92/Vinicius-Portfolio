@@ -1,36 +1,17 @@
 import React from 'react';
+import CardProject from '../components/CardProject';
 import Navbar from '../components/Navbar';
 import '../css/Projetos.css';
-import SolarSystem from '../projetos/SolarSystem.gif';
-import Trybewallet from '../projetos/Trybewallet.gif';
+import { project } from '../data/dataProject';
 
 export default function Projetos() {
   return (
     <div className="container">
       <Navbar />
-      <span>Meus Projetos</span>
-      <div className="container-projetos-content">
-        <div className="container-projetos-content-item">
-          <span className="title">Solar System</span>
-          <a
-            href="https://solarsystem-vinidipaula.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={SolarSystem} alt="Vercel" className="projeto-gif" />
-          </a>
-        </div>
-        <div className="container-projetos-content-item">
-          <span className="title">Trybe Wallet</span>
-          <a
-            href="https://trybewallet-vinidipaula.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={Trybewallet} alt="Vercel" className="projeto-gif" />
-          </a>
-        </div>
-      </div>
+      <span className="title">Meus Projetos</span>
+      {project.map((project, index) => (
+        <CardProject key={index} project={project} className="card-projetos" />
+      ))}
     </div>
   );
 }
