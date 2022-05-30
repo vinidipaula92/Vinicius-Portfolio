@@ -23,7 +23,7 @@ export default function Projetos() {
         <div className="container-projetos-content-item">
           <span className="title">Trybe Wallet</span>
           <a
-            href="https://trybe-wallet.vercel.app/"
+            href="https://trybewallet-vinidipaula.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
