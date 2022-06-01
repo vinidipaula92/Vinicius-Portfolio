@@ -14,19 +14,6 @@ export default function Contato() {
     setCampos({ ...campos, [name]: value });
   }
 
-  // function handleSubmit(event) {
-  //   if (campos.nome === '' || campos.email === '' || campos.mensagem === '') {
-  //     alert('Preencha todos os campos');
-  //   } else {
-  //     alert('Mensagem enviada com sucesso');
-  //     setCampos({
-  //       nome: '',
-  //       email: '',
-  //       mensagem: '',
-  //     });
-  //   }
-  // }
-
   const EMAIL_REGEX = /\w+@\w+\.\S+/g;
   const numberEight = 8;
 
@@ -98,7 +85,7 @@ export default function Contato() {
             xmlns="http://www.w3.org/2000/svg"
             width="100"
             height="100"
-            fill="currentColor"
+            fillRule="currentColor"
             className="bi bi-github"
             viewBox="0 0 16 16"
           >
@@ -113,7 +100,7 @@ export default function Contato() {
             xmlns="http://www.w3.org/2000/svg"
             width="100"
             height="100"
-            fill="currentColor"
+            fillRule="currentColor"
             className="bi bi-whatsapp"
             viewBox="0 0 16 16"
           >
@@ -128,7 +115,7 @@ export default function Contato() {
             xmlns="http://www.w3.org/2000/svg"
             width="100"
             height="100"
-            fill="currentColor"
+            fillRule="currentColor"
             className="bi bi-linkedin"
             viewBox="0 0 16 16"
           >
