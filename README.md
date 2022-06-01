@@ -1,5 +1,4 @@
 
-<h1 align="center"> Seja bem vindo ao meu Portfólio</h1>
+## Seja bem vindo ao meu Portfólio
 
-</br>
-![alt text](src/img/preto.png)
+![preto2](https://user-images.githubusercontent.com/94011499/171301969-745c2a6a-8e3b-4ed0-860a-213b86281773.png)
