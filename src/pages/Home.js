@@ -9,7 +9,7 @@ export default function Home() {
     <div className="container">
       <Navbar />
       <div className="my-test">
-        <p className="col-10 col-sm-4 text-name">
+        <p className="col-10 col-sm-4 text-family">
           Olá Mundo, eu sou o Vinicius de Paula, tenho 30 anos e sou estudante
           de desenvolvimento web.
         </p>

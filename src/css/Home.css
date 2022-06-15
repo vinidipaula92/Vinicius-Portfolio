@@ -64,13 +64,23 @@
   padding: 20px 0;
 }
 
-.text-name {
+.text-family {
   animation: typing 3.5s steps(40, end),
     blink-caret 0.75s step-end infinite;
   overflow: hidden;
   color: #475d5b;
   letter-spacing: .15rem;
   border-right: .2em solid #475d5b;
+    font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  justify-content: center;
+  color: #475d5b;
+  margin-top: 20px;
+  background-color: #f2f7f5;
 }
 
 @keyframes typing {
