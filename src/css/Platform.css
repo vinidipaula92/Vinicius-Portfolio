@@ -1,0 +1,27 @@
+.icon-react {
+    flex: 0 1 auto;
+  border-radius: 5px;
+  background-color: #f2f7f5;
+  box-shadow: 0 2px 5px 0 rgba(235, 235, 235, 0.16),
+    0 2px 10px 0 rgba(182, 174, 174, 0.12);
+    margin-right: 5px;
+}
+
+.tech-icon {
+  flex: 0 1 auto;
+  border-radius: 5px;
+  background-color: #f2f7f5;
+  box-shadow: 0 2px 5px 0 rgba(235, 235, 235, 0.16),
+    0 2px 10px 0 rgba(182, 174, 174, 0.12);
+    margin-right: 5px;
+    width: 20px;
+}
+
+.zoom {
+  background-color: rgb(45, 170, 192);
+  color: white;
+}
+
+span {
+  color: #475d5b;
+}

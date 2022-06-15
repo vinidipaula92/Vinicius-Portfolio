@@ -1,62 +1,33 @@
-import React from 'react';
 import Navbar from '../components/Navbar';
 import '../css/Sobre.css';
-import lindao from '../img/lindao.jpg';
-import ViniciusTrybe from '../img/ViniciusTrybe.jpg';
+import IMG_6912 from '../img/IMG_6912.jpg';
 
 export default function Sobre() {
   return (
     <div className="container">
       <Navbar />
-      <section>
-        <div className="container-description">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="30"
-            height="30"
-            fillRule="currentColor"
-            className="bi bi-info-square-fillRule"
-            viewBox="0 0 16 16"
-          >
-            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
-          </svg>
-          <span className="container-sobre">Este sou eu</span>
+      <div className="carde mb-5">
+        <img src={IMG_6912} alt="familia" className="col-10 col-sm-4" />
+        <div className="heart-family">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
             height="50"
             fillRule="currentColor"
-            className="bi bi-box-arrow-down"
+            className="bi bi-heart-fill heart"
             viewBox="0 0 16 16"
           >
-            <path
-              fillRule="evenodd"
-              d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z"
-            />
-            <path
-              fillRule="evenodd"
-              d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"
-            />
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
           </svg>
         </div>
-        <div className="div-card">
-          <img
-            src={ViniciusTrybe}
-            alt="Foto de perfil"
-            className="image-card"
-          />
-          <img src={lindao} alt="Foto de perfil" className="image-card" />
-        </div>
-        <p className="story-telling" id="story">
-          Atualmente, estou em formação em DEV. Meu sonho sempre foi trabalhar
-          na área de tecnologia, hoje posso dizer que está sendo um começo de um
-          sonho. Estou me realizando nos estudos com a TRYBE, alta qualidade na
-          matéria que estudamos, didática de aulas ótimas, treinamentos de
-          softkills, entre tantas coisas que realizamos durante o dia-a-dia.
-          Espero aprender cada vez mais e que no futuro próximo estar exercendo
-          na área!
+        <p className="text-family">
+          Gostaria de iniciar agradecendo a Deus por me abençoar, e pela família
+          maravilhosa que ele me abençoou. Agradecer também a mulher de minha
+          vida (Roberta), por todo o apoio e que nunca me deixou desanimar. Ao
+          meus filhos, que hoje são sem dúvidas, minhas maiores forças e minha
+          razão de sempre buscar o melhor.
         </p>
-      </section>
+      </div>
     </div>
   );
 }

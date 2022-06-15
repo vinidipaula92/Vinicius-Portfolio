@@ -5,73 +5,111 @@
   background-color: #f2f7f5;
 }
 
-.container-home {
+.container-sobre {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
   background-color: #f2f7f5;
 }
 
-.name {
-  font-size: 2rem;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
-  color: #475d5b;
+.story-telling {
   background-color: #f2f7f5;
-}
-
-.container-family {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #f2f7f5;
-}
-
-.section-home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #f2f7f5;
-}
-
-.heart-family {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #f2f7f5;
-  color: red;
-}
-
-.text-family {
   font-size: 1.2rem;
   font-weight: bold;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
   justify-content: center;
+  margin-top: 20px;
   color: #475d5b;
-  margin-top: 20px;
-  background-color: #f2f7f5;
 }
 
-.carde {
+.div-card {
+  background-color: #f2f7f5;
+  border-radius: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2rem;
+  box-shadow: 0 2px 5px 0 rgba(235, 235, 235, 0.16),
+    0 2px 10px 0 rgba(182, 174, 174, 0.12);
+}
+
+.image-card {
+  flex: 0 1 300px;
+  border-radius: 5px;
   background-color: #f2f7f5;
 }
 
-.home-container {
-  margin-top: 20px;
-  background-color: #f2f7f5;
+.container-description {
+  flex: 1 1 auto;
+  display: flex;
 }
 
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #475d5b;
+}
+
+.my-test {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #475d5b;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.text-name {
+  animation: typing 3.5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
+  overflow: hidden;
+  color: #475d5b;
+  letter-spacing: .15rem;
+  border-right: .2em solid #475d5b;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #475d5b;
+  }
+}
+
+.tecnologias {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #202f2e;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+  text-decoration: underline;
+}
+
+.plataformas {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #202f2e;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+  text-decoration: underline;
+}

@@ -5,53 +5,82 @@
   background-color: #f2f7f5;
 }
 
-.container-sobre {
+.container-home {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
   background-color: #f2f7f5;
 }
 
-.story-telling {
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  color: #475d5b;
   background-color: #f2f7f5;
+}
+
+.container-family {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f7f5;
+}
+
+.section-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f7f5;
+}
+
+.heart-family {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f7f5;
+  color: red;
+  padding: 20px;
+}
+
+.text-family {
   font-size: 1.2rem;
   font-weight: bold;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 20px;
   justify-content: center;
-  margin-top: 20px;
   color: #475d5b;
-}
-
-.div-card {
-  background-color: #f2f7f5;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  box-shadow: 0 2px 5px 0 rgba(235, 235, 235, 0.16),
-    0 2px 10px 0 rgba(182, 174, 174, 0.12);
-}
-
-.image-card {
-  flex: 0 1 200px;
-  border-radius: 5px;
+  margin-top: 20px;
   background-color: #f2f7f5;
 }
 
-.container-description {
+.carde {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-block-end: 20px;
-  margin-top: 20px;
-  width: 100%;
   background-color: #f2f7f5;
+}
+
+.home-container {
+  margin-top: 20px;
+  background-color: #f2f7f5;
+}
+
+.carde {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f7f5;
+  padding: 50px;
 }
