@@ -1,10 +1,11 @@
+import CardProjects from '../components/CardProjects';
 import Navbar from '../components/Navbar';
 import Platform from '../components/Platform';
 import Technologies from '../components/Technologies';
 import '../css/Home.css';
 import ViniciusTrybe from '../img/ViniciusTrybe.jpg';
 
-export default function Home() {
+export default function Home({ project }) {
   return (
     <div className="container">
       <Navbar />
@@ -41,6 +42,10 @@ export default function Home() {
         </span>
         <Platform />
       </div>
+      <div className="my-projects">
+        <span className="title">Veja aqui alguns dos meus projetos:</span>
+        <CardProjects />
+        </div>
     </div>
   );
 }

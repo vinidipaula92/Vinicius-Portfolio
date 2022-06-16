@@ -1,5 +1,5 @@
 import React from 'react';
-import CardProject from '../components/CardProject';
+import Projects from '../components/Projects';
 import Navbar from '../components/Navbar';
 import '../css/Projetos.css';
 import { project } from '../data/dataProject';
@@ -10,7 +10,7 @@ export default function Projetos() {
       <Navbar />
       <span className="title">Meus Projetos</span>
       {project.map((project, index) => (
-        <CardProject key={index} project={project} className="card-projetos" />
+        <Projects key={index} project={project} />
       ))}
     </div>
   );
