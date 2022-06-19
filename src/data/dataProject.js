@@ -21,7 +21,11 @@ export const project = [
   {
     title: 'Trybe Wallet',
     description:
-      'Carteira digital, onde podemos adicionar os gastos realizados diariamente e com conversor de moedas.',
+      `Projeto realizado com redux,
+      Carteira digital, onde podemos adicionar os 
+      gastos realizados no nosso dia a dia ou até mesmo em uma viagem,
+      adicionando os atributos de valor, categoria, qual moeda que foi utilizado
+      no pagamento e qual forma de pagamento.`,
     link: 'https://trybewallet-vinidipaula.vercel.app/',
     github: 'https://github.com/vinidipaula92/trybewallet',
     image: Trybewallet,
@@ -30,7 +34,9 @@ export const project = [
   {
     title: 'Solar System',
     description:
-      'Visualiza todos os planetas do sistema solar e todas as informações sobre missões espaciais.',
+      `Meu primeiro projeto em React
+      onde pude fazer uma página que visualiza todos os planetas do 
+      sistema solar e todas as informações sobre missões espaciais.`,
     link: 'https://solarsystem-vinidipaula.vercel.app/',
     github: 'https://github.com/vinidipaula92/Project-Solar-System',
     image: SolarSystem,
