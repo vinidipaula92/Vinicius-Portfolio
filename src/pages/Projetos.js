@@ -9,7 +9,7 @@ export default function Projetos() {
   return (
     <div className="container">
       <Navbar />
-      <span className="title">Meus Projetos</span>
+      <span className="my-projects">Meus Projetos</span>
       {project.map((project, index) => (
         <Projects key={index} project={project} />
       ))}

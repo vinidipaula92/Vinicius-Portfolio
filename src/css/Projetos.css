@@ -20,3 +20,13 @@
   color: #475d5b;
   font-family: sans-serif;
 }
+
+.my-projects {
+  font-size: 1.8rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+  color: #475d5b;
+  text-decoration: underline;
+}

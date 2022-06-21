@@ -11,12 +11,12 @@ export default function CardProjects() {
           <div className="col-md-4">
             <img src={project.image} alt={project.title} key={index} />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-8 div-project">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <ul>
               {project.technologies.map((tech, index) => (
-                <li key={index} className="my-techs">
+                <li key={index} className="technologies">
                   {tech}
                 </li>
               ))}
