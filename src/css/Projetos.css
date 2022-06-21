@@ -1,0 +1,21 @@
+.projects-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #202f2e;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+  color: #475d5b;
+}
+
+.projects-description {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #202f2e;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+  color: #475d5b;
+}

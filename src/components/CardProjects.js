@@ -21,13 +21,13 @@ export default function CardProjects() {
                   <li key={index}>{tech}</li>
                 ))}
               </ul>
-              <div className="row">
-                <div className="col-md-1">
+              <div className="row text-center">
+                <div className="col-3">
                   <a href={project.github} target="_blank" rel="noopener noreferrer">
                     <BsGithub size={30} color="black"/>
                   </a>
                 </div>
-                <div className="col-md-1">
+                <div className="col-3">
                   <a href={project.link} target="_blank" rel="noopener noreferrer">
                     <FiExternalLink size={30} color="black"/>
                   </a>

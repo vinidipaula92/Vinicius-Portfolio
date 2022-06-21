@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import '../css/Contato.css';
+import Footer from '../components/Footer';
 
 export default function Contato() {
   const [campos, setCampos] = useState({
@@ -78,7 +79,12 @@ export default function Contato() {
       </div>
       <span>Ou se preferir, acesse minhas plataformas</span>
       <div className="redes-contato mb-5">
-        <a className="link-github" href="https://github.com/vinidipaula92">
+        <a
+          className="link-github"
+          href="https://github.com/vinidipaula92"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="100"
@@ -93,6 +99,8 @@ export default function Contato() {
         <a
           className="link-whatsapp"
           href="https://wa.me/5511963955894?text=Olá,%20eu%20gostaria%20de%20saber%20mais%20sobre%20o%20portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -108,6 +116,8 @@ export default function Contato() {
         <a
           className="link-linkedin"
           href="https://www.linkedin.com/in/vinicius-depaula"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

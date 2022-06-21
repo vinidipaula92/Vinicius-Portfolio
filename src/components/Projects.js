@@ -11,8 +11,8 @@ export default function Projects({ project }) {
           <img src={project.image} alt={project.title} />
         </div>
         <div className="col-md-8">
-          <h3>{project.title}</h3>
-          <p>{project.description}</p>
+          <h3 className="projects-title">{project.title}</h3>
+          <p className="projects-description">{project.description}</p>
           <ul>
             {
               project.technologies.map((tech, index) => (

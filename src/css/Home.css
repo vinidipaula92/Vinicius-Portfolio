@@ -17,7 +17,7 @@
 .story-telling {
   background-color: #f2f7f5;
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 500;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,13 +50,13 @@
 
 .name {
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 500;
   color: #475d5b;
 }
 
 .my-test {
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 500;
   color: #475d5b;
   display: flex;
   flex-flow: row wrap;
@@ -72,7 +72,7 @@
   letter-spacing: .15rem;
   border-right: .2em solid #475d5b;
     font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 500;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -104,7 +104,7 @@
 
 .tecnologias {
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 500;
   color: #202f2e;
   display: flex;
   flex-flow: row wrap;
@@ -115,11 +115,45 @@
 
 .plataformas {
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 500;
   color: #202f2e;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 20px 0;
   text-decoration: underline;
+}
+
+.techs-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.platform-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.projects-span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #202f2e;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.projects-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 0;
 }

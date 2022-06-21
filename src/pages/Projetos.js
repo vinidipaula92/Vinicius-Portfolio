@@ -3,6 +3,7 @@ import Projects from '../components/Projects';
 import Navbar from '../components/Navbar';
 import '../css/Projetos.css';
 import { project } from '../data/dataProject';
+import Footer from '../components/Footer';
 
 export default function Projetos() {
   return (
@@ -12,6 +13,7 @@ export default function Projetos() {
       {project.map((project, index) => (
         <Projects key={index} project={project} />
       ))}
+      <Footer />
     </div>
   );
 }

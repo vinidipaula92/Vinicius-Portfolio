@@ -15,7 +15,7 @@
 
 .name {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 500;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,7 +52,7 @@
 
 .family-text {
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 500;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,5 +82,60 @@
   align-items: center;
   justify-content: center;
   background-color: #f2f7f5;
+  padding: 50px;
+}
+
+.my-family {
+  margin:20px;
+  color: #475d5b;
+}
+
+.text-center {
+  margin-top:20px;
+  color: #475d5b;
+  font-weight: 500;
+}
+
+.my-family-topic {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  color: #475d5b;
+}
+
+.div-hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.parque-family {
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  color: #475d5b;
+  padding: 80px;
+}
+
+.futevolei {
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  color: #475d5b;
+  padding: 80px;
+}
+
+.div-studying {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 50px;
 }
