@@ -24,6 +24,7 @@
   justify-content: center;
   margin-top: 20px;
   color: #475d5b;
+  font-family: sans-serif;
 }
 
 .div-card {
@@ -52,6 +53,7 @@
   font-size: 1.2rem;
   font-weight: 500;
   color: #475d5b;
+  font-family: sans-serif;
 }
 
 .my-test {
@@ -62,6 +64,7 @@
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 20px 0;
+  font-family: sans-serif;
 }
 
 .text-family {
@@ -81,6 +84,7 @@
   color: #475d5b;
   margin-top: 20px;
   background-color: #f2f7f5;
+  font-family: sans-serif;
 }
 
 @keyframes typing {
@@ -111,6 +115,7 @@
   justify-content: space-around;
   padding: 20px 0;
   text-decoration: underline;
+  font-family: sans-serif;
 }
 
 .plataformas {
@@ -122,6 +127,7 @@
   justify-content: space-around;
   padding: 20px 0;
   text-decoration: underline;
+  font-family: sans-serif;
 }
 
 .techs-div {
@@ -148,6 +154,7 @@
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 20px 0;
+  font-family: sans-serif;
 }
 
 .projects-div {

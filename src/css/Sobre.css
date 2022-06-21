@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #f2f7f5;
+  font-family: sans-serif;
 }
 
 .container-home {
@@ -21,6 +22,7 @@
   align-items: center;
   margin: 20px;
   color: #475d5b;
+  font-family: sans-serif;
   background-color: #f2f7f5;
 }
 

@@ -1,3 +1,7 @@
+* {
+  font-family: sans-serif;
+}
+
 .tec-container {
   display: flex;
   flex-flow: row wrap;
